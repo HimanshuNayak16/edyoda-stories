@@ -1,0 +1,50 @@
+.categoriesContainer {
+  padding-bottom: 20px;
+  font-size: 16px;
+  padding-top: 16px;
+}
+
+/* heading */
+.categoriesHeading {
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* filter */
+.categoriesFilterDiv {
+  padding-top: 24px;
+}
+.filterIconSpan {
+  color: #0084ff;
+}
+.filterIconSpan > i {
+  font-size: 24px;
+}
+.filterText {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+/* content */
+.categoriesContentDiv {
+  padding-top: 8px;
+}
+.categories {
+  display: inline-block;
+  text-decoration: none;
+  padding: 6px 14px;
+  width: auto;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+.categoriesContentDiv a:first-child,
+.categories:active {
+  color: #fff;
+  background-color: #0084ff;
+}
