@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Topbar from "./components/Topbar/Topbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { posts } from "./posts";
 import { PostPage } from "./components/PostPage/PostPage";
 
@@ -19,7 +19,7 @@ class App extends Component {
           </nav>
         </header>
         <main>
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route
                 path=""
@@ -35,7 +35,7 @@ class App extends Component {
                 );
               })}
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </main>
         <footer>
           <Footer />
