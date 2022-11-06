@@ -1,0 +1,9 @@
+.pageCard {
+  margin: 20px 10%;
+  background: #fff;
+  border: 2px solid #000;
+}
+
+.pageImage {
+  width: 100%;
+}

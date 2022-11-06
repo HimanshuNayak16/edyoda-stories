@@ -23,7 +23,12 @@ nav {
 }
 
 main {
-  padding: 32px 64px 16px;
+  padding: 112px 64px 16px;
+}
+
+footer {
+  background-color: #172146;
+  padding: 80px 16%;
 }
 
 code {
