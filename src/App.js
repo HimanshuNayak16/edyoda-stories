@@ -22,7 +22,7 @@ class App extends Component {
           <BrowserRouter>
             <Routes>
               <Route
-                path="/"
+                path=""
                 element={<Home posts={this.state.posts} />}
               ></Route>
               {this.state.posts.map((post) => {
