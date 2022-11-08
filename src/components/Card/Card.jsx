@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import styles from "./Card.module.css";
 import { useNavigate } from "react-router-dom";
 
@@ -20,7 +20,7 @@ function Card(props) {
             : props.post.postTitle}
         </figcaption>
         <div className={styles.author_container}>
-          <span className={styles.author}>{props.post.postAuthor}</span>
+          <span className={styles.author}>{props.post.postAuthor + " "}</span>
           <span className={styles.date}>| {props.post.postSubmissionDate}</span>
         </div>
         <div className={styles.card_desc}>

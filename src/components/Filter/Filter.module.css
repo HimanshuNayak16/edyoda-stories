@@ -43,7 +43,7 @@
   margin: 5px;
   cursor: pointer;
 }
-.categoriesContentDiv a:first-child,
+
 .categories:active {
   color: #fff;
   background-color: #0084ff;

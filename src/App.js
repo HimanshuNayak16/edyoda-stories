@@ -7,9 +7,6 @@ import { posts } from "./posts";
 import { PostPage } from "./components/PostPage/PostPage";
 
 class App extends Component {
-  state = {
-    posts: posts,
-  };
   render() {
     return (
       <div className="App">
@@ -21,11 +18,8 @@ class App extends Component {
         <main>
           <HashRouter>
             <Routes>
-              <Route
-                path=""
-                element={<Home posts={this.state.posts} />}
-              ></Route>
-              {this.state.posts.map((post) => {
+              <Route path="/" element={<Home />}></Route>
+              {posts.map((post) => {
                 return (
                   <Route
                     key={post.postId}

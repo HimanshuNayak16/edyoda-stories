@@ -1,38 +1,11 @@
 import React from "react";
-import * as ReactDOM from "react-dom";
 import styles from "./Topbar.module.css";
-// import { useNavigate } from "react-router-dom";
+import TopStrip from "../TopStrip/TopStrip";
 
 function Topbar() {
-  // const navigate = useNavigate();
-
-  const handleKnowMore = () => {
-    const knowMoreDiv = document.getElementsByClassName("know-more")[0];
-    const knowMoreDivNode = ReactDOM.findDOMNode(knowMoreDiv);
-    knowMoreDivNode.style.display = "none";
-  };
-
   return (
     <div className={styles.topbar}>
-      <div className={`${styles.knowMore} know-more`}>
-        <p className={styles.knowMoreText}>
-          Now get exciting rewards on learning.{" "}
-        </p>
-
-        <a
-          href="https://www.edyoda.com/learn-and-earn"
-          target="_blank"
-          className={styles.knowMoreLink}
-          rel="noopener noreferrer"
-        >
-          Know More
-        </a>
-
-        <div className={styles.hideKnowMore} onClick={handleKnowMore}>
-          <div className={styles.hideLine}></div>
-          <div className={styles.hideLine}></div>
-        </div>
-      </div>
+      <TopStrip />
       <div className={styles.navbar}>
         <div className={styles.logo}>
           <h1 className={styles.brand}>Edyoda</h1>
@@ -53,7 +26,9 @@ function Topbar() {
               </p>
             </div>
             <div className={styles.mainWebsiteLink}>
-              <a href="https://www.edyoda.com/home">Go To Main Website</a>
+              <a href="https://www.edyoda.com/home" target="_blank">
+                Go To Main Website
+              </a>
             </div>
           </div>
         </div>

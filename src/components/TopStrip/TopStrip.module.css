@@ -1,0 +1,44 @@
+.knowMore {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  white-space: pre;
+  background: #0096ff;
+  color: #fff;
+  font-size: 15px;
+}
+
+.knowMoreText {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.knowMoreLink {
+  color: #fff;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.hideKnowMore {
+  position: absolute;
+  right: 20px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.hideLine {
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.hideLine:nth-of-type(1) {
+  transform: rotate(45deg);
+}
+
+.hideLine:nth-of-type(2) {
+  transform: rotate(-45deg);
+}
