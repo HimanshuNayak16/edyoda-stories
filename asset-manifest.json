@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edyoda-stories/static/css/main.4a91eaab.css",
-    "main.js": "/edyoda-stories/static/js/main.341c9e5c.js",
+    "main.css": "/edyoda-stories/static/css/main.a60917a8.css",
+    "main.js": "/edyoda-stories/static/js/main.ef4a26d7.js",
     "static/js/787.b67192c7.chunk.js": "/edyoda-stories/static/js/787.b67192c7.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/edyoda-stories/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/edyoda-stories/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/edyoda-stories/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/edyoda-stories/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/edyoda-stories/index.html",
-    "main.4a91eaab.css.map": "/edyoda-stories/static/css/main.4a91eaab.css.map",
-    "main.341c9e5c.js.map": "/edyoda-stories/static/js/main.341c9e5c.js.map",
+    "main.a60917a8.css.map": "/edyoda-stories/static/css/main.a60917a8.css.map",
+    "main.ef4a26d7.js.map": "/edyoda-stories/static/js/main.ef4a26d7.js.map",
     "787.b67192c7.chunk.js.map": "/edyoda-stories/static/js/787.b67192c7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a91eaab.css",
-    "static/js/main.341c9e5c.js"
+    "static/css/main.a60917a8.css",
+    "static/js/main.ef4a26d7.js"
   ]
 }
