@@ -83,3 +83,28 @@
   color: #fff;
   font-size: 14px;
 }
+
+.hamburger {
+  display: none;
+}
+
+.hamburgerLine {
+  height: 2px;
+  width: 24px;
+  margin: 4px 0px;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 971px) {
+  /* For tablets: */
+  .menuItems {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+}

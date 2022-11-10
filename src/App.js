@@ -2,21 +2,22 @@ import React, { Component } from "react";
 import Topbar from "./components/Topbar/Topbar";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
+import PostPage from "./components/PostPage/PostPage";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import { posts } from "./posts";
-import { PostPage } from "./components/PostPage/PostPage";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <nav>
-            <Topbar />
-          </nav>
-        </header>
-        <main>
-          <HashRouter>
+        <HashRouter>
+          <header>
+            <nav>
+              <Topbar />
+            </nav>
+          </header>
+          <main>
             <Routes>
               <Route path="/" element={<Home />}></Route>
               {posts.map((post) => {
@@ -28,9 +29,10 @@ class App extends Component {
                   ></Route>
                 );
               })}
+              <Route path="*" element={<PageNotFound />} />
             </Routes>
-          </HashRouter>
-        </main>
+          </main>
+        </HashRouter>
         <footer>
           <Footer />
         </footer>
